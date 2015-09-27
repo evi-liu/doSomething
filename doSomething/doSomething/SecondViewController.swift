@@ -41,6 +41,7 @@ class SecondViewController: UIViewController, UITableViewDelegate {
         
         cell.textLabel?.text = taskManager.tasks[indexPath.row].taskName
         cell.detailTextLabel?.text = taskManager.tasks[indexPath.row].details
+        cell.detailTextLabel?.text = taskManager.tasks[indexPath.row].amount
         
         return cell
     }
