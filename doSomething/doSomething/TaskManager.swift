@@ -15,13 +15,14 @@ struct task{
     var taskName = ""
     var amount = ""
     var details = ""
+    var timeStamp = ""
 }
 
 class TaskManager: NSObject {
     var tasks = [task]()
     
-    func addTask(taskName: String, amount: String, details: String){
-        tasks.append(task(taskName: taskName, amount: amount, details: details))
+    func addTask(taskName: String, amount: String, details: String, timeStamp: String){
+        tasks.append(task(taskName: taskName, amount: amount, details: details, timeStamp: timeStamp))
     }
     
 }
