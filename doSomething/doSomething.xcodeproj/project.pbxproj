@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07AC3D9F1BB7BD120020767C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AC3D9E1BB7BD120020767C /* LoginViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		4FF478311BB759870006634E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF478301BB759870006634E /* AppDelegate.swift */; };
 		4FF478331BB759870006634E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF478321BB759870006634E /* FirstViewController.swift */; };
 		4FF478351BB759870006634E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF478341BB759870006634E /* SecondViewController.swift */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07AC3D9E1BB7BD120020767C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4FF4782D1BB759870006634E /* doSomething.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = doSomething.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FF478301BB759870006634E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FF478321BB759870006634E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				4FF478761BB780C60006634E /* Settings.png */,
 				4FF478771BB780C60006634E /* Talk.png */,
 				4FF4783E1BB759870006634E /* Info.plist */,
+				07AC3D9E1BB7BD120020767C /* LoginViewController.swift */,
 			);
 			path = doSomething;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07AC3D9F1BB7BD120020767C /* LoginViewController.swift in Sources */,
 				4FF4787D1BB789520006634E /* TaskManager.swift in Sources */,
 				4FF478351BB759870006634E /* SecondViewController.swift in Sources */,
 				4FF478731BB770D90006634E /* NewTaskViewController.swift in Sources */,
@@ -521,6 +525,7 @@
 				4FF478591BB759870006634E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FF4785A1BB759870006634E /* Build configuration list for PBXNativeTarget "doSomethingTests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +534,7 @@
 				4FF4785C1BB759870006634E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FF4785D1BB759870006634E /* Build configuration list for PBXNativeTarget "doSomethingUITests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +543,7 @@
 				4FF4785F1BB759870006634E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
