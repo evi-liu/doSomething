@@ -13,7 +13,6 @@ class NewTaskViewController: UIViewController {
     @IBOutlet var task: UITextField!
     @IBOutlet var amount: UITextField!
     @IBOutlet var details: UITextField!
-    
    
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,7 +29,7 @@ class NewTaskViewController: UIViewController {
         taskManager.addTask(task.text!, amount: amount.text!, details: details.text!)
         self.view.endEditing(true)
         print(taskManager.tasks[0])
-        self.tabBarController?.selectedIndex = 1
+        // Switch back to home screen
     }
     
 }
