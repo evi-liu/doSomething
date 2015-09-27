@@ -29,7 +29,7 @@ class NewTaskViewController: UIViewController {
         taskManager.addTask(task.text!, amount: amount.text!, details: details.text!)
         self.view.endEditing(true)
         print(taskManager.tasks[0])
-        // Switch back to home screen
+        self.performSegueWithIdentifier("toMain", sender: nil)
     }
     
 }
