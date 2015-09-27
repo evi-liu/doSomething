@@ -8,7 +8,8 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class SecondViewController: UIViewController, UITableViewDelegate {
+    @IBOutlet var myFeed: UITableView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +19,30 @@ class SecondViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        myFeed.reloadData()
+    }
+    
+    func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath){
+        if (editingStyle == UITableViewCellEditingStyle.Delete){
+            taskManager.tasks.removeAtIndex(indexPath.row)
+            myFeed.reloadData()
+        }
+    }
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
+        return taskManager.tasks.count
+    }
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell{
+        let cell: UITableViewCell = UITableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: "test")
+        
+        cell.textLabel?.text = taskManager.tasks[indexPath.row].taskName
+        cell.detailTextLabel?.text = taskManager.tasks[indexPath.row].details
+        
+        return cell
     }
 
 
