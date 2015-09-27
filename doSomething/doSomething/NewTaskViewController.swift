@@ -29,14 +29,8 @@ class NewTaskViewController: UIViewController {
         let timestamp = NSDateFormatter.localizedStringFromDate(NSDate(), dateStyle: .MediumStyle, timeStyle: .ShortStyle)
         taskManager.addTask(task.text!, amount: amount.text!, details: details.text!, timeStamp: timestamp)
         self.view.endEditing(true)
-<<<<<<< HEAD
         print(taskManager.tasks[0])
         self.performSegueWithIdentifier("toMain", sender: nil)
-=======
-        // Switch back to home screen
-        print(tabBarController)
-        tabBarController?.selectedIndex = 0
->>>>>>> Evi
     }
     
 }

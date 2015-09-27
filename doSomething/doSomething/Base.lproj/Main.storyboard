@@ -414,12 +414,8 @@
         <image name="post.png" width="300" height="80"/>
     </resources>
     <inferredMetricsTieBreakers>
-<<<<<<< HEAD
         <segue reference="JdB-YY-Ig5"/>
         <segue reference="r7g-JX-nIW"/>
-=======
-        <segue reference="r7g-JX-nIW"/>
         <segue reference="AfW-m2-m5S"/>
->>>>>>> Evi
     </inferredMetricsTieBreakers>
 </document>
