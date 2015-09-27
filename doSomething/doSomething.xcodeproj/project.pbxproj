@@ -21,6 +21,7 @@
 		4FF478791BB780C60006634E /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FF478751BB780C60006634E /* Home.png */; settings = {ASSET_TAGS = (); }; };
 		4FF4787A1BB780C60006634E /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FF478761BB780C60006634E /* Settings.png */; settings = {ASSET_TAGS = (); }; };
 		4FF4787B1BB780C60006634E /* Talk.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FF478771BB780C60006634E /* Talk.png */; settings = {ASSET_TAGS = (); }; };
+		4FF4787D1BB789520006634E /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF4787C1BB789520006634E /* TaskManager.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		4FF478751BB780C60006634E /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.png; sourceTree = "<group>"; };
 		4FF478761BB780C60006634E /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings.png; sourceTree = "<group>"; };
 		4FF478771BB780C60006634E /* Talk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Talk.png; sourceTree = "<group>"; };
+		4FF4787C1BB789520006634E /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				4FF478361BB759870006634E /* Main.storyboard */,
 				4FF478391BB759870006634E /* Assets.xcassets */,
 				4FF4783B1BB759870006634E /* LaunchScreen.storyboard */,
+				4FF4787C1BB789520006634E /* TaskManager.swift */,
 				4FF478741BB780C60006634E /* Me.png */,
 				4FF478751BB780C60006634E /* Home.png */,
 				4FF478761BB780C60006634E /* Settings.png */,
@@ -280,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FF4787D1BB789520006634E /* TaskManager.swift in Sources */,
 				4FF478351BB759870006634E /* SecondViewController.swift in Sources */,
 				4FF478731BB770D90006634E /* NewTaskViewController.swift in Sources */,
 				4FF478311BB759870006634E /* AppDelegate.swift in Sources */,
