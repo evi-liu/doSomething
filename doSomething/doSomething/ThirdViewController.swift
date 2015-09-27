@@ -10,9 +10,16 @@ import UIKit
 
 class ThirdViewController: UIViewController {
     
+    @IBOutlet var email: UILabel!
+    @IBOutlet var bankAccount: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        // Input current user email
+        email.text = "hello@hello.com"
+        // Input current bank account number
+        bankAccount.text = "123456"
+        
     }
     
     override func didReceiveMemoryWarning() {
