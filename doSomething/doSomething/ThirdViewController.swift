@@ -17,6 +17,7 @@ class ThirdViewController: UIViewController {
         super.viewDidLoad()
         // Input current user email
         email.text = "hello@hello.com"
+        // Input current bank account number
         bankAccount.text = "123456"
         
     }
